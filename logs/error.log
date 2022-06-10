@@ -1,0 +1,73 @@
+2022/06/10 12:12:58 [notice] 96183#2158920: signal 1 (SIGHUP) received from 97298, reconfiguring
+2022/06/10 12:12:58 [notice] 96183#2158920: reconfiguring
+2022/06/10 12:12:58 [notice] 96183#2158920: using the "kqueue" event method
+2022/06/10 12:12:58 [notice] 96183#2158920: start worker processes
+2022/06/10 12:12:58 [notice] 96183#2158920: start worker process 97301
+2022/06/10 12:12:58 [notice] 96218#2160205: gracefully shutting down
+2022/06/10 12:12:58 [notice] 96183#2158920: signal 23 (SIGIO) received
+2022/06/10 12:12:58 [notice] 96183#2158920: signal 23 (SIGIO) received
+2022/06/10 12:12:58 [notice] 96218#2160205: exiting
+2022/06/10 12:12:58 [notice] 96218#2160205: exit
+2022/06/10 12:12:58 [notice] 96183#2158920: signal 20 (SIGCHLD) received from 96218
+2022/06/10 12:12:58 [notice] 96183#2158920: worker process 96218 exited with code 0
+2022/06/10 12:12:58 [notice] 96183#2158920: signal 23 (SIGIO) received
+2022/06/10 12:12:58 [notice] 96183#2158920: signal 23 (SIGIO) received from 97301
+2022/06/10 12:12:58 [notice] 96183#2158920: signal 23 (SIGIO) received
+2022/06/10 12:13:04 [notice] 96183#2158920: signal 15 (SIGTERM) received from 97330, exiting
+2022/06/10 12:13:04 [notice] 97301#2172264: exiting
+2022/06/10 12:13:04 [notice] 96183#2158920: signal 23 (SIGIO) received from 97301
+2022/06/10 12:13:04 [notice] 97301#2172264: exit
+2022/06/10 12:13:04 [notice] 96183#2158920: signal 20 (SIGCHLD) received from 97301
+2022/06/10 12:13:04 [notice] 96183#2158920: worker process 97301 exited with code 0
+2022/06/10 12:13:04 [notice] 96183#2158920: exit
+2022/06/10 12:13:08 [notice] 97356#2172549: using the "kqueue" event method
+2022/06/10 12:13:08 [notice] 97356#2172549: openresty/1.19.9.1
+2022/06/10 12:13:08 [notice] 97356#2172549: built by clang 13.1.6 (clang-1316.0.21.2.3)
+2022/06/10 12:13:08 [notice] 97356#2172549: OS: Darwin 21.2.0
+2022/06/10 12:13:08 [notice] 97356#2172549: hw.ncpu: 10
+2022/06/10 12:13:08 [notice] 97356#2172549: net.inet.tcp.sendspace: 131072
+2022/06/10 12:13:08 [notice] 97356#2172549: kern.ipc.somaxconn: 128
+2022/06/10 12:13:08 [notice] 97356#2172549: getrlimit(RLIMIT_NOFILE): 1048575:9223372036854775807
+2022/06/10 12:13:08 [notice] 97357#2172553: start worker processes
+2022/06/10 12:13:08 [notice] 97357#2172553: start worker process 97358
+2022/06/10 12:13:22 [debug] 97358#2172556: *3 [lua] access_by_lua(nginx.conf:91):4: get regex, uri_args: 
+2022/06/10 12:13:22 [debug] 97358#2172556: *3 [lua] access_by_lua(nginx.conf:91):22: have user agent, go check user agent....
+2022/06/10 12:13:22 [debug] 97358#2172556: *3 [lua] access_by_lua(nginx.conf:91):33: 非端内，go pc
+2022/06/10 12:13:25 [debug] 97358#2172556: *3 [lua] access_by_lua(nginx.conf:91):4: get regex, uri_args: 
+2022/06/10 12:13:25 [debug] 97358#2172556: *3 [lua] access_by_lua(nginx.conf:91):22: have user agent, go check user agent....
+2022/06/10 12:13:25 [debug] 97358#2172556: *3 [lua] access_by_lua(nginx.conf:91):33: 非端内，go pc
+2022/06/10 12:13:29 [debug] 97358#2172556: *3 [lua] access_by_lua(nginx.conf:91):4: get regex, uri_args: 
+2022/06/10 12:13:29 [debug] 97358#2172556: *3 [lua] access_by_lua(nginx.conf:91):22: have user agent, go check user agent....
+2022/06/10 12:13:29 [debug] 97358#2172556: *3 [lua] access_by_lua(nginx.conf:91):38: 其余默认走mobile
+2022/06/10 12:13:30 [debug] 97358#2172556: *3 [lua] access_by_lua(nginx.conf:91):4: get regex, uri_args: 
+2022/06/10 12:13:30 [debug] 97358#2172556: *3 [lua] access_by_lua(nginx.conf:91):22: have user agent, go check user agent....
+2022/06/10 12:13:30 [debug] 97358#2172556: *3 [lua] access_by_lua(nginx.conf:91):38: 其余默认走mobile
+2022/06/10 12:13:30 [debug] 97358#2172556: *3 [lua] access_by_lua(nginx.conf:91):4: get regex, uri_args: 
+2022/06/10 12:13:30 [debug] 97358#2172556: *3 [lua] access_by_lua(nginx.conf:91):22: have user agent, go check user agent....
+2022/06/10 12:13:30 [debug] 97358#2172556: *3 [lua] access_by_lua(nginx.conf:91):38: 其余默认走mobile
+2022/06/10 12:13:41 [debug] 97358#2172556: *3 [lua] access_by_lua(nginx.conf:91):4: get regex, uri_args: 
+2022/06/10 12:13:41 [debug] 97358#2172556: *3 [lua] access_by_lua(nginx.conf:91):16: have __pc__, go pc....
+2022/06/10 12:14:11 [info] 97358#2172556: *1 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/06/10 12:14:11 [info] 97358#2172556: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/06/10 12:16:50 [notice] 97357#2172553: signal 1 (SIGHUP) received from 97550, reconfiguring
+2022/06/10 12:16:50 [notice] 97357#2172553: reconfiguring
+2022/06/10 12:16:50 [notice] 97357#2172553: using the "kqueue" event method
+2022/06/10 12:16:50 [notice] 97357#2172553: start worker processes
+2022/06/10 12:16:50 [notice] 97357#2172553: start worker process 97553
+2022/06/10 12:16:50 [notice] 97358#2172556: gracefully shutting down
+2022/06/10 12:16:50 [notice] 97358#2172556: exiting
+2022/06/10 12:16:50 [notice] 97357#2172553: signal 23 (SIGIO) received
+2022/06/10 12:16:50 [notice] 97358#2172556: exit
+2022/06/10 12:16:50 [notice] 97357#2172553: signal 20 (SIGCHLD) received from 97358
+2022/06/10 12:16:50 [notice] 97357#2172553: worker process 97358 exited with code 0
+2022/06/10 12:16:50 [notice] 97357#2172553: signal 23 (SIGIO) received
+2022/06/10 12:16:50 [notice] 97357#2172553: signal 23 (SIGIO) received from 97553
+2022/06/10 12:16:52 [debug] 97553#2175505: *6 [lua] access_by_lua(nginx.conf:91):4: 匹配正则表达式, uri_args: 
+2022/06/10 12:16:52 [debug] 97553#2175505: *6 [lua] access_by_lua(nginx.conf:91):16: 有参数:__pc__, 走PC端
+2022/06/10 12:16:53 [debug] 97553#2175505: *6 [lua] access_by_lua(nginx.conf:91):4: 匹配正则表达式, uri_args: 
+2022/06/10 12:16:53 [debug] 97553#2175505: *6 [lua] access_by_lua(nginx.conf:91):16: 有参数:__pc__, 走PC端
+2022/06/10 12:16:56 [debug] 97553#2175505: *6 [lua] access_by_lua(nginx.conf:91):4: 匹配正则表达式, uri_args: 
+2022/06/10 12:16:56 [debug] 97553#2175505: *6 [lua] access_by_lua(nginx.conf:91):22: 请求方带有 useragent，检查useragent
+2022/06/10 12:16:56 [debug] 97553#2175505: *6 [lua] access_by_lua(nginx.conf:91):38: 默认走移动端页面
+2022/06/10 12:17:52 [info] 97553#2175505: *4 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/06/10 12:17:52 [info] 97553#2175505: *5 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
