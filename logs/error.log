@@ -71,3 +71,66 @@
 2022/06/10 12:16:56 [debug] 97553#2175505: *6 [lua] access_by_lua(nginx.conf:91):38: 默认走移动端页面
 2022/06/10 12:17:52 [info] 97553#2175505: *4 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
 2022/06/10 12:17:52 [info] 97553#2175505: *5 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/06/10 12:22:09 [notice] 97357#2172553: signal 15 (SIGTERM) received from 97987, exiting
+2022/06/10 12:22:09 [notice] 97553#2175505: exiting
+2022/06/10 12:22:09 [notice] 97357#2172553: signal 23 (SIGIO) received from 97553
+2022/06/10 12:22:09 [notice] 97553#2175505: exit
+2022/06/10 12:22:09 [notice] 97357#2172553: signal 20 (SIGCHLD) received from 97553
+2022/06/10 12:22:09 [notice] 97357#2172553: worker process 97553 exited with code 0
+2022/06/10 12:22:09 [notice] 97357#2172553: exit
+2022/06/10 12:27:08 [notice] 98131#2186971: using the "kqueue" event method
+2022/06/10 12:27:08 [notice] 98131#2186971: openresty/1.19.9.1
+2022/06/10 12:27:08 [notice] 98131#2186971: built by clang 13.1.6 (clang-1316.0.21.2.3)
+2022/06/10 12:27:08 [notice] 98131#2186971: OS: Darwin 21.2.0
+2022/06/10 12:27:08 [notice] 98131#2186971: hw.ncpu: 10
+2022/06/10 12:27:08 [notice] 98131#2186971: net.inet.tcp.sendspace: 131072
+2022/06/10 12:27:08 [notice] 98131#2186971: kern.ipc.somaxconn: 128
+2022/06/10 12:27:08 [notice] 98131#2186971: getrlimit(RLIMIT_NOFILE): 1048575:9223372036854775807
+2022/06/10 12:27:08 [notice] 98132#2186976: start worker processes
+2022/06/10 12:27:08 [notice] 98132#2186976: start worker process 98133
+2022/06/10 12:27:18 [debug] 98133#2186981: *3 [lua] access_by_lua(nginx.conf:91):4: 匹配正则表达式, uri_args: 
+2022/06/10 12:27:18 [debug] 98133#2186981: *3 [lua] access_by_lua(nginx.conf:91):22: 请求方带有 useragent，检查useragent
+2022/06/10 12:27:18 [debug] 98133#2186981: *3 [lua] access_by_lua(nginx.conf:91):33: 不是移动端，走PC页面
+2022/06/10 12:27:36 [debug] 98133#2186981: *3 [lua] access_by_lua(nginx.conf:91):4: 匹配正则表达式, uri_args: 
+2022/06/10 12:27:36 [debug] 98133#2186981: *3 [lua] access_by_lua(nginx.conf:91):22: 请求方带有 useragent，检查useragent
+2022/06/10 12:27:36 [debug] 98133#2186981: *3 [lua] access_by_lua(nginx.conf:91):38: 默认走移动端页面
+2022/06/10 12:28:18 [info] 98133#2186981: *1 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/06/10 12:28:18 [info] 98133#2186981: *2 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/06/10 13:03:16 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):4: 匹配正则表达式, uri_args: 
+2022/06/10 13:03:16 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):22: 请求方带有 useragent，检查useragent
+2022/06/10 13:03:16 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):38: 默认走移动端页面
+2022/06/10 13:03:21 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):4: 匹配正则表达式, uri_args: 
+2022/06/10 13:03:21 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):22: 请求方带有 useragent，检查useragent
+2022/06/10 13:03:21 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):33: 不是移动端，走PC页面
+2022/06/10 13:03:46 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):4: 匹配正则表达式, uri_args: 
+2022/06/10 13:03:46 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):22: 请求方带有 useragent，检查useragent
+2022/06/10 13:03:46 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):33: 不是移动端，走PC页面
+2022/06/10 13:04:07 [info] 98133#2186981: *4 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/06/10 13:04:07 [info] 98133#2186981: *5 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/06/10 13:04:11 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):4: 匹配正则表达式, uri_args: 
+2022/06/10 13:04:11 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):22: 请求方带有 useragent，检查useragent
+2022/06/10 13:04:11 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):33: 不是移动端，走PC页面
+2022/06/10 13:04:53 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):4: 匹配正则表达式, uri_args: 
+2022/06/10 13:04:53 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):22: 请求方带有 useragent，检查useragent
+2022/06/10 13:04:53 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):38: 默认走移动端页面
+2022/06/10 13:05:11 [info] 98133#2186981: *7 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/06/10 13:05:11 [info] 98133#2186981: *8 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/06/10 13:05:34 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):4: 匹配正则表达式, uri_args: 
+2022/06/10 13:05:34 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):22: 请求方带有 useragent，检查useragent
+2022/06/10 13:05:34 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):33: 不是移动端，走PC页面
+2022/06/10 13:05:43 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):4: 匹配正则表达式, uri_args: 
+2022/06/10 13:05:43 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):22: 请求方带有 useragent，检查useragent
+2022/06/10 13:05:43 [debug] 98133#2186981: *6 [lua] access_by_lua(nginx.conf:91):33: 不是移动端，走PC页面
+2022/06/10 13:06:34 [info] 98133#2186981: *9 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/06/10 13:06:34 [info] 98133#2186981: *10 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/06/10 13:07:32 [debug] 98133#2186981: *13 [lua] access_by_lua(nginx.conf:91):4: 匹配正则表达式, uri_args: 
+2022/06/10 13:07:32 [debug] 98133#2186981: *13 [lua] access_by_lua(nginx.conf:91):22: 请求方带有 useragent，检查useragent
+2022/06/10 13:07:32 [debug] 98133#2186981: *13 [lua] access_by_lua(nginx.conf:91):38: 默认走移动端页面
+2022/06/10 13:07:47 [debug] 98133#2186981: *13 [lua] access_by_lua(nginx.conf:91):4: 匹配正则表达式, uri_args: 
+2022/06/10 13:07:47 [debug] 98133#2186981: *13 [lua] access_by_lua(nginx.conf:91):22: 请求方带有 useragent，检查useragent
+2022/06/10 13:07:47 [debug] 98133#2186981: *13 [lua] access_by_lua(nginx.conf:91):38: 默认走移动端页面
+2022/06/10 13:08:09 [debug] 98133#2186981: *13 [lua] access_by_lua(nginx.conf:91):4: 匹配正则表达式, uri_args: 
+2022/06/10 13:08:09 [debug] 98133#2186981: *13 [lua] access_by_lua(nginx.conf:91):22: 请求方带有 useragent，检查useragent
+2022/06/10 13:08:09 [debug] 98133#2186981: *13 [lua] access_by_lua(nginx.conf:91):33: 不是移动端，走PC页面
+2022/06/10 13:08:32 [info] 98133#2186981: *11 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2022/06/10 13:08:32 [info] 98133#2186981: *12 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
